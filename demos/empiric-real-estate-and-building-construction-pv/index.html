@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Empiric Real Estate and Building Construction Pvt Ltd. | Real Estate Agency in B-17 Multi Gardens, Islamabad</title>
+<meta name="description" content="Empiric Real Estate and Building Construction Pvt Ltd. - Real Estate Agency serving B-17 Multi Gardens, Islamabad. Plots, houses and commercial units with verified paperwork, real photos and a team that actually answers the phone. Tell us your budget and we will se">
+<meta property="og:title" content="Empiric Real Estate and Building Construction Pvt Ltd. | Real Estate Agency in B-17 Multi Gardens, Islamabad">
+<meta property="og:description" content="Plots, houses and commercial units with verified paperwork, real photos and a team that actually answers the phone. Tell us your budget and we will se">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#05070d; --surface:#0d1220; --ink:#f2f6ff; --muted:#8fa0bd;
+    --accent:#38bdf8; --accent2:#a78bfa; --on-accent:#04121c;
+    --line:color-mix(in srgb, var(--ink) 12%, transparent);
+    --radius:18px; --max:1160px;
+    --display:'Sora',system-ui,sans-serif; --body:'Inter',system-ui,-apple-system,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);
+       font-weight:400;line-height:1.65;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:var(--display);line-height:1.08;letter-spacing:-.02em;margin:0}
+  h1{font-size:clamp(2.3rem,5.6vw,4.1rem);font-weight:800}
+  h2{font-size:clamp(1.7rem,3.4vw,2.6rem);font-weight:700}
+  h3{font-size:1.12rem;font-weight:600;letter-spacing:-.01em}
+  p{margin:0}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:.76rem;font-weight:600;
+    letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+  .muted{color:var(--muted)}
+  section{padding:clamp(56px,7vw,96px) 0}
+
+  /* ---------- header ---------- */
+  header{position:sticky;top:0;z-index:50;backdrop-filter:blur(14px);
+    background:color-mix(in srgb, var(--bg) 82%, transparent);
+    border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:18px;height:70px}
+  .brand{display:flex;align-items:center;gap:11px;font-family:var(--display);
+    font-weight:700;font-size:1.02rem;letter-spacing:-.02em}
+  .mark{width:36px;height:36px;border-radius:11px;display:grid;place-items:center;
+    background:linear-gradient(135deg,var(--accent),var(--accent2));
+    color:var(--on-accent);font-size:.9rem;font-weight:800;flex:0 0 auto}
+  .nav-links{display:flex;gap:26px;font-size:.92rem;font-weight:500}
+  .nav-links a{color:var(--muted);transition:color .2s}
+  .nav-links a:hover{color:var(--ink)}
+  .nav-cta{display:flex;gap:10px;align-items:center}
+  @media(max-width:860px){.nav-links{display:none}}
+
+  /* ---------- buttons ---------- */
+  .btn{display:inline-flex;align-items:center;gap:9px;padding:13px 22px;border-radius:999px;
+    font-weight:600;font-size:.94rem;border:1px solid transparent;cursor:pointer;
+    transition:transform .16s ease, box-shadow .2s ease, background .2s}
+  .btn:hover{transform:translateY(-1px)}
+  .btn-primary{background:linear-gradient(135deg,var(--accent),var(--accent2));
+    color:var(--on-accent);box-shadow:0 10px 26px -12px var(--accent)}
+  .btn-ghost{border-color:var(--line);color:var(--ink);background:transparent}
+  .btn-ghost:hover{border-color:var(--accent)}
+  .btn-wa{background:#25D366;color:#04310f}
+  .btn-sm{padding:10px 16px;font-size:.86rem}
+
+  /* ---------- hero ---------- */
+  .hero{position:relative;overflow:hidden;padding-top:clamp(48px,6vw,84px)}
+  .hero::before{content:"";position:absolute;inset:-30% 40% 40% -20%;pointer-events:none;
+    background:radial-gradient(circle at 30% 40%, color-mix(in srgb,var(--accent) 30%,transparent), transparent 62%);
+    filter:blur(30px);opacity:.55}
+  .hero-grid{display:grid;grid-template-columns:1.08fr .92fr;gap:clamp(32px,5vw,68px);
+    align-items:center;position:relative}
+  .hero-copy{max-width:36ch}
+  .hero-sub{color:var(--muted);font-size:1.07rem;margin-top:20px;max-width:44ch}
+  .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+  .trust{display:flex;flex-wrap:wrap;gap:20px;margin-top:34px;padding-top:26px;
+    border-top:1px solid var(--line);font-size:.88rem;color:var(--muted)}
+  .trust b{color:var(--ink);font-weight:600}
+  .stars{color:var(--accent2);letter-spacing:2px}
+
+  /* hero art */
+  .hero-art{position:relative;aspect-ratio:1/1;max-width:440px;justify-self:end;width:100%}
+  .art-card{position:absolute;border-radius:24px;border:1px solid var(--line);
+    background:linear-gradient(160deg,var(--surface),color-mix(in srgb,var(--surface) 70%,var(--accent) 8%));
+    box-shadow:0 30px 70px -40px rgba(0,0,0,.7)}
+  .art-main{inset:6% 8% 22% 0;display:grid;place-items:center;overflow:hidden}
+  .art-main svg{width:58%;height:58%;color:var(--accent);opacity:.9}
+  .art-badge{right:0;bottom:12%;padding:16px 20px;display:flex;align-items:center;gap:12px}
+  .art-badge .dot{width:10px;height:10px;border-radius:50%;background:var(--accent2);
+    box-shadow:0 0 0 5px color-mix(in srgb,var(--accent2) 22%,transparent)}
+  .art-pill{left:-4%;top:2%;padding:10px 16px;font-size:.8rem;font-weight:600;
+    display:flex;align-items:center;gap:8px}
+  @media(max-width:900px){.hero-grid{grid-template-columns:1fr}.hero-art{display:none}}
+
+  /* ---------- stats ---------- */
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
+    border:1px solid var(--line);border-radius:var(--radius);overflow:hidden}
+  .stat{background:var(--surface);padding:26px 24px}
+  .stat b{display:block;font-family:var(--display);font-size:1.75rem;font-weight:700;
+    letter-spacing:-.02em}
+  .stat span{font-size:.84rem;color:var(--muted)}
+  @media(max-width:700px){.stats{grid-template-columns:1fr}}
+
+  /* ---------- section head ---------- */
+  .head{max-width:60ch;margin-bottom:44px}
+  .head p{color:var(--muted);margin-top:14px}
+
+  /* ---------- cards ---------- */
+  .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  .grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+  @media(max-width:900px){.grid-3{grid-template-columns:1fr 1fr}}
+  @media(max-width:640px){.grid-3,.grid-2{grid-template-columns:1fr}}
+  .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    padding:26px;transition:transform .2s ease,border-color .2s}
+  .card:hover{transform:translateY(-3px);border-color:color-mix(in srgb,var(--accent) 45%,transparent)}
+  .card .ico{width:42px;height:42px;border-radius:12px;display:grid;place-items:center;
+    background:color-mix(in srgb,var(--accent) 14%,transparent);color:var(--accent);
+    margin-bottom:16px}
+  .card p{color:var(--muted);font-size:.93rem;margin-top:9px}
+
+  /* ---------- gallery ---------- */
+  .gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+  @media(max-width:900px){.gallery{grid-template-columns:1fr 1fr}}
+  .tile{aspect-ratio:4/5;border-radius:var(--radius);border:1px solid var(--line);
+    position:relative;overflow:hidden;display:flex;align-items:flex-end;padding:16px}
+  .tile::after{content:"";position:absolute;inset:0;
+    background:linear-gradient(180deg,transparent 45%,rgba(0,0,0,.42))}
+  .tile span{position:relative;z-index:2;font-size:.8rem;font-weight:600;color:#fff;
+    letter-spacing:.02em}
+  .tile svg{position:absolute;inset:0;margin:auto;width:34%;height:34%;color:#fff;opacity:.5;z-index:1}
+  .t1{background:linear-gradient(150deg,color-mix(in srgb,var(--accent) 80%,#000 12%),color-mix(in srgb,var(--accent2) 62%,#000 20%))}
+  .t2{background:linear-gradient(150deg,color-mix(in srgb,var(--accent2) 70%,#000 18%),color-mix(in srgb,var(--accent) 45%,#000 30%))}
+  .t3{background:linear-gradient(150deg,color-mix(in srgb,var(--accent) 55%,#111 25%),color-mix(in srgb,var(--accent2) 75%,#000 10%))}
+  .t4{background:linear-gradient(150deg,color-mix(in srgb,var(--muted) 55%,#000 20%),color-mix(in srgb,var(--accent) 65%,#000 15%))}
+
+  /* ---------- testimonials ---------- */
+  .quote{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    padding:26px;display:flex;flex-direction:column;gap:14px}
+  .quote p{font-size:.96rem;line-height:1.7}
+  .who{display:flex;align-items:center;gap:11px;margin-top:auto;padding-top:6px}
+  .avatar{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;
+    font-size:.78rem;font-weight:700;background:color-mix(in srgb,var(--accent) 18%,transparent);
+    color:var(--accent)}
+  .who b{font-size:.88rem;font-weight:600}
+  .sample{margin-left:auto;font-size:.62rem;letter-spacing:.12em;text-transform:uppercase;
+    color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:3px 9px}
+
+  /* ---------- contact ---------- */
+  .contact{display:grid;grid-template-columns:.95fr 1.05fr;gap:clamp(28px,4vw,56px);
+    align-items:start}
+  @media(max-width:900px){.contact{grid-template-columns:1fr}}
+  .info-row{display:flex;gap:13px;align-items:flex-start;padding:16px 0;
+    border-bottom:1px solid var(--line)}
+  .info-row .ico{width:36px;height:36px;border-radius:10px;display:grid;place-items:center;
+    background:color-mix(in srgb,var(--accent) 14%,transparent);color:var(--accent);flex:0 0 auto}
+  .info-row b{display:block;font-size:.86rem}
+  .info-row span{font-size:.9rem;color:var(--muted)}
+  form{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+    padding:clamp(22px,3vw,32px);display:grid;gap:14px}
+  label{font-size:.78rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase;
+    color:var(--muted)}
+  input,select,textarea{width:100%;padding:13px 14px;border-radius:12px;
+    border:1px solid var(--line);background:var(--bg);color:var(--ink);
+    font-family:var(--body);font-size:.95rem;margin-top:6px}
+  input:focus,select:focus,textarea:focus{outline:2px solid color-mix(in srgb,var(--accent) 55%,transparent);
+    border-color:transparent}
+  textarea{resize:vertical;min-height:88px}
+  .two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:520px){.two{grid-template-columns:1fr}}
+  .form-note{font-size:.78rem;color:var(--muted);text-align:center}
+
+  /* ---------- footer ---------- */
+  footer{border-top:1px solid var(--line);padding:40px 0 28px;font-size:.86rem;color:var(--muted)}
+  .foot{display:flex;flex-wrap:wrap;gap:18px;justify-content:space-between;align-items:center}
+  .foot a{color:var(--muted)}.foot a:hover{color:var(--ink)}
+
+  /* ---------- demo ribbon ---------- */
+  .demo-note{position:fixed;left:50%;transform:translateX(-50%);bottom:14px;z-index:60;
+    background:color-mix(in srgb,var(--ink) 92%,transparent);color:var(--bg);
+    font-size:.78rem;font-weight:500;padding:9px 16px;border-radius:999px;
+    box-shadow:0 14px 34px -18px rgba(0,0,0,.8);max-width:calc(100% - 24px);text-align:center}
+  .demo-note .claim{display:inline-block;margin-left:8px;padding:5px 13px;border-radius:999px;
+    background:var(--accent);color:var(--on-accent);font-weight:700;text-decoration:none;
+    white-space:nowrap;transition:transform .15s ease,filter .15s ease}
+  .demo-note .claim:hover{transform:translateY(-1px);filter:brightness(1.06)}
+  /* ---------- mobile call bar ---------- */
+  .mbar{position:fixed;left:0;right:0;bottom:0;z-index:55;display:none;gap:10px;padding:10px 14px;
+    background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(12px);
+    border-top:1px solid var(--line)}
+  .mbar .btn{flex:1;justify-content:center}
+  @media(max-width:640px){.mbar{display:flex}.demo-note{bottom:76px}}
+  /* ---------- motion layer ---------- */
+  .reveal{opacity:0;transform:translateY(26px);transition:opacity .75s cubic-bezier(.2,.7,.2,1),
+    transform .75s cubic-bezier(.2,.7,.2,1)}
+  .reveal.in{opacity:1;transform:none}
+  .hero::after{content:"";position:absolute;right:-12%;bottom:-28%;width:46%;aspect-ratio:1;
+    border-radius:50%;pointer-events:none;
+    background:radial-gradient(circle,color-mix(in srgb,var(--accent2) 34%,transparent),transparent 66%);
+    filter:blur(44px);opacity:.5;animation:floaty 16s ease-in-out infinite}
+  @keyframes floaty{0%,100%{transform:translate3d(0,0,0)}50%{transform:translate3d(0,-24px,0)}}
+  .art-main{animation:floaty 11s ease-in-out infinite}
+  .art-badge{animation:floaty 13s ease-in-out infinite reverse}
+  .ticker{overflow:hidden;border-block:1px solid var(--line);margin-top:46px;
+    background:color-mix(in srgb,var(--surface) 55%,transparent)}
+  .ticker-track{display:flex;gap:46px;width:max-content;padding:13px 0;
+    animation:slide 28s linear infinite;font-size:.76rem;letter-spacing:.16em;
+    text-transform:uppercase;color:var(--muted);white-space:nowrap}
+  .ticker-track b{color:var(--accent);font-weight:600}
+  @keyframes slide{to{transform:translateX(-50%)}}
+  .card:hover .ico{transform:scale(1.08) rotate(-4deg)}
+  .card .ico{transition:transform .25s ease}
+  .tile{transition:transform .35s cubic-bezier(.2,.7,.2,1),box-shadow .35s}
+  .tile:hover{transform:translateY(-6px) scale(1.015);
+    box-shadow:0 26px 60px -34px color-mix(in srgb,var(--accent) 70%,transparent)}
+  .btn-primary{position:relative;overflow:hidden}
+  .btn-primary::after{content:"";position:absolute;inset:0;
+    background:linear-gradient(110deg,transparent 30%,rgba(255,255,255,.35),transparent 70%);
+    transform:translateX(-120%);animation:sheen 4.6s ease-in-out infinite}
+  @keyframes sheen{0%,72%{transform:translateX(-120%)}88%,100%{transform:translateX(120%)}}
+  @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top">
+      <span class="mark">ER</span>
+      <span>Empiric Real Estate and Building Construction Pvt Ltd.</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#services">Services</a>
+      <a href="#work">Our Work</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn-ghost btn-sm" href="tel:03177143602">0317 7143602</a>
+      <a class="btn btn-primary btn-sm" href="#contact">Get a Quote</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- hero -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">Real Estate Agency &middot; B-17 Multi Gardens, Islamabad</span>
+        <h1>Find the Right Property. Skip the Guesswork.</h1>
+        <p class="hero-sub">Plots, houses and commercial units with verified paperwork, real photos and a team that actually answers the phone. Tell us your budget and we will send matching options the same day.</p>
+        <div class="hero-actions">
+          <a class="btn btn-wa" href="https://wa.me/923177143602?text=Hi%20Empiric%20Real%20Estate%20and%20Building%20Construction%20Pvt%20Ltd.,%20I%20found%20you%20online%20and%20would%20like%20a%20quote." target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.8-1.4A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.2 1.2-1.7 1.2-.5.1-1 .1-1.6-.1a11 11 0 0 1-4-2.4 11 11 0 0 1-2.3-3.4c-.3-.7-.3-1.4 0-2 .2-.4.7-1 1-1.1.3-.1.6-.1.8.1l1 1.5c.1.3 0 .5-.2.7l-.5.5c-.2.2-.2.4-.1.6.4.8 1.6 2 2.4 2.4.2.1.4.1.6-.1l.5-.6c.2-.2.4-.2.6-.1l1.5 1c.2.1.3.4.1.7z"/></svg>
+            WhatsApp us
+          </a>
+          <a class="btn btn-ghost" href="tel:03177143602">Call 0317 7143602</a>
+        </div>
+        <div class="trust">
+          <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+          <span><b>4.9</b> average rating</span>
+          <span><b>26</b> happy customers</span>
+        </div>
+      </div>
+      <div class="hero-art">
+        <div class="art-card art-main"><svg viewBox="0 0 24 24" width="120" height="120" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7 .9-5.2 4.8 1.4 7L12 18l-6.2 3.3 1.4-7L2 9.5l7-.9L12 2z"/></svg></div>
+        <div class="art-card art-pill"><svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="m4 13 5 5L20 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg> Local & insured</div>
+        <div class="art-card art-badge">
+          <span class="dot"></span>
+          <span><b style="display:block;font-size:.9rem">Open now</b>
+          <span class="muted" style="font-size:.78rem">B-17 Multi Gardens, Islamabad area</span></span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- stats -->
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat"><b>26</b><span>customers served</span></div>
+      <div class="stat"><b>4.9</b><span>average rating</span></div>
+      <div class="stat"><b>100%</b><span>work guaranteed</span></div>
+    </div>
+  </div>
+
+  <!-- ticker -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span><b>Verified files</b></span><span>Possession ready plots</span>
+      <span><b>Clear titles</b></span><span>Transfer support</span>
+      <span><b>Real photos</b></span><span>Same-day answers</span>
+      <span><b>Verified files</b></span><span>Possession ready plots</span>
+      <span><b>Clear titles</b></span><span>Transfer support</span>
+      <span><b>Real photos</b></span><span>Same-day answers</span>
+    </div>
+  </div>
+
+  <!-- services -->
+  <section id="services">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow">What we do</span>
+        <h2 style="margin-top:14px">Everything you need, under one roof</h2>
+        <p>Clear scope, fair pricing, and a team that shows up when they say they will.</p>
+      </div>
+      <div class="grid-3"><div class="card"><div class="ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M3 11 12 3l9 8v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1V11z"/></svg></div><h3>Buy a Plot or House</h3><p>Verified listings, clear titles, and no time wasted on dead files.</p></div><div class="card"><div class="ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 2l2.2 6.3L21 11l-6.8 2.7L12 20l-2.2-6.3L3 11l6.8-2.7L12 2z"/></svg></div><h3>Sell Your Property</h3><p>Real pricing based on what actually closed nearby, not wishful thinking.</p></div><div class="card"><div class="ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><circle cx="8" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M11 11l9 9M17 17l2-2M20 20l2-2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div><h3>Rentals & Tenants</h3><p>Tenants screened, agreements written, rent followed up on.</p></div><div class="card"><div class="ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 3v18M6 7h12M6 7l-3 7h6L6 7zM18 7l-3 7h6l-3-7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div><h3>Investment Advisory</h3><p>Where the next growth pocket is, and when to get out.</p></div><div class="card"><div class="ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 2 4 5v7c0 5 3.4 8.6 8 10 4.6-1.4 8-5 8-10V5l-8-3z"/></svg></div><h3>Construction & Development</h3><p>From grey structure to handover, one team accountable.</p></div><div class="card"><div class="ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="m4 13 5 5L20 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3>Transfer & Paperwork</h3><p>Transfers, NOCs and registry handled end to end.</p></div></div>
+    </div>
+  </section>
+
+  <!-- work -->
+  <section id="work" style="padding-top:0">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow">Our work</span>
+        <h2 style="margin-top:14px">A look at recent work</h2>
+      </div>
+      <div class="gallery"><div class="tile t1"><svg viewBox="0 0 24 24" width="40" height="40" fill="currentColor" aria-hidden="true"><path d="M3 11 12 3l9 8v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1V11z"/></svg><span>Block B Markaz</span></div><div class="tile t2"><svg viewBox="0 0 24 24" width="40" height="40" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7 .9-5.2 4.8 1.4 7L12 18l-6.2 3.3 1.4-7L2 9.5l7-.9L12 2z"/></svg><span>Residential plots</span></div><div class="tile t3"><svg viewBox="0 0 24 24" width="40" height="40" fill="currentColor" aria-hidden="true"><path d="m4 13 5 5L20 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>New construction</span></div><div class="tile t4"><svg viewBox="0 0 24 24" width="40" height="40" fill="currentColor" aria-hidden="true"><path d="M4 8h4l2-2h4l2 2h4v11H4V8z"/><circle cx="12" cy="13" r="3" fill="none" stroke="currentColor" stroke-width="2"/></svg><span>Commercial units</span></div></div>
+    </div>
+  </section>
+
+  <!-- why us -->
+  <section style="padding-top:0">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow">Why people choose us</span>
+        <h2 style="margin-top:14px">No fuss. No surprises.</h2>
+      </div>
+      <div class="grid-3"><div class="card"><div class="ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="m4 13 5 5L20 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div><h3>Verified files only</h3><p>Every listing checked before it reaches you.</p></div><div class="card"><div class="ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M12 2 4 5v7c0 5 3.4 8.6 8 10 4.6-1.4 8-5 8-10V5l-8-3z"/></svg></div><h3>Same-day answers</h3><p>Message and get a real reply, not a read receipt.</p></div><div class="card"><div class="ico"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="m12 2 3 6.6 7 .9-5.2 4.8 1.4 7L12 18l-6.2 3.3 1.4-7L2 9.5l7-.9L12 2z"/></svg></div><h3>One point of contact</h3><p>The same person from first visit to handover.</p></div></div>
+    </div>
+  </section>
+
+  <!-- reviews -->
+  <section id="reviews" style="padding-top:0">
+    <div class="wrap">
+      <div class="head">
+        <span class="eyebrow">Reviews</span>
+        <h2 style="margin-top:14px">What customers say</h2>
+      </div>
+      <div class="grid-3"><div class="quote"><p>&ldquo;Genuinely easy to deal with. Explained everything, turned up on time, and the price was the price.&rdquo;</p><div class="who"><span class="avatar">A</span><b>A customer</b><span class="sample">Sample</span></div></div><div class="quote"><p>&ldquo;I called three places and these were the only ones who picked up and gave me a straight answer.&rdquo;</p><div class="who"><span class="avatar">A</span><b>A customer</b><span class="sample">Sample</span></div></div><div class="quote"><p>&ldquo;Second time using them. Same standard as the first. That says enough.&rdquo;</p><div class="who"><span class="avatar">A</span><b>A customer</b><span class="sample">Sample</span></div></div></div>
+    </div>
+  </section>
+
+  <!-- contact -->
+  <section id="contact" style="padding-top:0">
+    <div class="wrap contact">
+      <div>
+        <span class="eyebrow">Get in touch</span>
+        <h2 style="margin-top:14px">Tell us what you need</h2>
+        <p class="muted" style="margin-top:14px;max-width:38ch">
+          Send a message and we will come back to you the same day with availability and a price.
+        </p>
+        <div style="margin-top:26px">
+          <div class="info-row">
+            <span class="ico"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M6 3h3l2 5-2 1a12 12 0 0 0 6 6l1-2 5 2v3a2 2 0 0 1-2 2A17 17 0 0 1 4 5a2 2 0 0 1 2-2z"/></svg></span>
+            <span><b>Call or WhatsApp</b><span>0317 7143602</span></span>
+          </div>
+          <div class="info-row">
+            <span class="ico"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M3 11 12 3l9 8v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1V11z"/></svg></span>
+            <span><b>Where we are</b><span>102C, B1 MR 9, Block C Multi Gardens B-17, Islamabad, Pakistan</span></span>
+          </div>
+          <div class="info-row">
+            <span class="ico"><svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l4 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
+            <span><b>Opening hours</b><span>Mon&ndash;Sat, 8:00&ndash;19:00</span></span>
+          </div>
+        </div>
+      </div>
+      <form id="booking" novalidate>
+        <div class="two">
+          <div><label for="f-name">Your name</label>
+            <input id="f-name" name="name" type="text" placeholder="Full name" required></div>
+          <div><label for="f-phone">Phone</label>
+            <input id="f-phone" name="phone" type="tel" placeholder="Best number" required></div>
+        </div>
+        <div><label for="f-service">What do you need?</label>
+          <select id="f-service" name="service"><option value="Buy a Plot or House">Buy a Plot or House</option><option value="Sell Your Property">Sell Your Property</option><option value="Rentals & Tenants">Rentals & Tenants</option><option value="Investment Advisory">Investment Advisory</option><option value="Construction & Development">Construction & Development</option><option value="Transfer & Paperwork">Transfer & Paperwork</option></select></div>
+        <div><label for="f-msg">Details</label>
+          <textarea id="f-msg" name="message" placeholder="Tell us briefly what you need and when suits you"></textarea></div>
+        <button class="btn btn-primary" type="submit" style="justify-content:center">
+          Send enquiry
+        </button>
+        <p class="form-note">Sends straight to WhatsApp. No account needed.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div>
+      <strong style="color:var(--ink)">Empiric Real Estate and Building Construction Pvt Ltd.</strong><br>
+      102C, B1 MR 9, Block C Multi Gardens B-17, Islamabad, Pakistan &middot; 0317 7143602
+    </div>
+    <div style="text-align:right">
+      &copy; 2026 Empiric Real Estate and Building Construction Pvt Ltd.. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<div class="mbar">
+  <a class="btn btn-ghost" href="tel:03177143602">Call</a>
+  <a class="btn btn-wa" href="https://wa.me/923177143602?text=Hi%20Empiric%20Real%20Estate%20and%20Building%20Construction%20Pvt%20Ltd.,%20I%20found%20you%20online%20and%20would%20like%20a%20quote." target="_blank" rel="noopener">WhatsApp</a>
+</div>
+
+<div class="demo-note">
+  Free demo site built for Empiric Real Estate and Building Construction Pvt Ltd. &middot; not live yet &middot;
+  <a class="claim" href="mailto:moxsinari@gmail.com?subject=I%20want%20the%20Empiric%20Real%20Estate%20and%20Building%20Construction%20Pvt%20Ltd.%20website" target="_blank" rel="noopener">Claim this site</a>
+</div>
+
+<script>
+  (function () {
+    var form = document.getElementById('booking');
+    if (!form) return;
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var name = (document.getElementById('f-name').value || '').trim();
+      var phone = (document.getElementById('f-phone').value || '').trim();
+      var service = document.getElementById('f-service').value;
+      var msg = (document.getElementById('f-msg').value || '').trim();
+      if (!name || !phone) {
+        alert('Please add your name and a phone number so we can reply.');
+        return;
+      }
+      var lines = [
+        'New enquiry from the website',
+        'Name: ' + name,
+        'Phone: ' + phone,
+        'Service: ' + service
+      ];
+      if (msg) lines.push('Details: ' + msg);
+      window.open('https://wa.me/923177143602?text=' + encodeURIComponent(lines.join('\n')), '_blank');
+    });
+  })();
+</script>
+
+<script>
+  (function () {
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var sel = '.head, .card, .tile, .quote, .stat, .info-row, form, .hero-copy > *';
+    var els = [].slice.call(document.querySelectorAll(sel));
+    els.forEach(function (el, i) {
+      el.classList.add('reveal');
+      el.style.transitionDelay = Math.min(i * 55, 300) + 'ms';
+    });
+    if (!('IntersectionObserver' in window)) {
+      els.forEach(function (el) { el.classList.add('in'); });
+    } else {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+        });
+      }, { threshold: 0.12, rootMargin: '0px 0px -6% 0px' });
+      els.forEach(function (el) { io.observe(el); });
+    }
+    [].slice.call(document.querySelectorAll('.stat b')).forEach(function (b) {
+      var m = b.textContent.trim().match(/^([\d.]+)(.*)$/);
+      if (!m || !('IntersectionObserver' in window)) return;
+      var target = parseFloat(m[1]), suffix = m[2];
+      var dec = (m[1].split('.')[1] || '').length;
+      var o = new IntersectionObserver(function (en) {
+        en.forEach(function (x) {
+          if (!x.isIntersecting) return;
+          o.unobserve(b);
+          var t0 = performance.now(), dur = 1100;
+          (function step(t) {
+            var k = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - k, 3);
+            b.textContent = (target * e).toFixed(dec) + suffix;
+            if (k < 1) requestAnimationFrame(step);
+            else b.textContent = target.toFixed(dec) + suffix;
+          })(t0);
+        });
+      }, { threshold: 0.4 });
+      o.observe(b);
+    });
+  })();
+</script>
+</body>
+</html>
